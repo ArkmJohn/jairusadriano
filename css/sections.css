@@ -156,12 +156,26 @@ footer {
     transition: all 0.4s linear;
   }
 
+  .spec-row {
+    min-height: 150vh;
+  }
+
   .menu-nav.transition {
     margin: -100px 0 0 0%;
   }
 
+  .one {
+    width: 100%;
+    height: 150vh;
+  }
+
   .two {
     display: none;
+  }
+
+  .three {
+    width: 100%;
+    height: 150vh;
   }
 
   .btn-section {
