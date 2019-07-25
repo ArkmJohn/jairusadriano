@@ -1,0 +1,32 @@
+$primaryColor: #ffffff;
+$myPurple: #5c27a0;
+$myOrange: #ffa11a;
+$myNavyBlue: #16273b;
+$myTeal: #95b1b7;
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.color-primary {
+    color: $primaryColor !important;
+}
+
+.bg-color-purp {
+    background-color: $myPurple !important;
+}
+
+.bg-color-or {
+    background-color: $myOrange !important;
+}
+
+.bg-color-nav-blue {
+    background-color: $myNavyBlue !important;
+}
+
+.bg-color-teal {
+    background-color: $myTeal !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+}

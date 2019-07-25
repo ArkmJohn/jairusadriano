@@ -1,0 +1,124 @@
+@import './variables.scss';
+h1 {
+    font-weight: 900;
+}
+
+section {
+    text-align: center;
+    width: 100%;
+    min-height: 100vh;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    overflow: hidden;
+}
+
+.spec-row {
+    min-height: 100vh;
+}
+
+header {
+    width: 100%;
+    min-height: 10vh;
+}
+
+footer {
+    width: 100%;
+    min-height: 10vh;
+    overflow: hidden;
+}
+
+.main-row-section {
+    height: 80vh;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.logo {
+    height: 20vh;
+}
+
+.btn-section {
+    width: 20vw;
+    height: 8vh;
+    border: 2px solid;
+    background-color: transparent;
+    border-radius: 10px;
+    padding-top: 13px;
+}
+
+.btn-white {
+    border-color: $primaryColor;
+}
+
+.one {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('../img/jazzfest-panel.png');
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    background-position-x: 150px;
+    background-repeat: no-repeat;
+}
+
+.two {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("../img/lot-panel.png");
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    background-position-x: -45em;
+    background-repeat: no-repeat;
+}
+
+.three {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("../img/defined-panel.png");
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    background-position-x: 150px;
+    background-repeat: no-repeat;
+}
+
+.profile-photo {
+    width: auto;
+    height: 700px;
+}
+
+.increase-200-m {
+    min-height: 100vh;
+}
+
+@media only screen and (max-width: 768px) {
+    .menu-nav {
+        position: fixed;
+        z-index: 30;
+        box-shadow: 5px 0px 50px grey;
+        width: 1000px;
+        height: 150vh;
+        margin: -100px 0 0 -400%;
+        padding: 50px;
+        padding-top: 200px;
+        background: #f4f4f4;
+        list-style-type: none;
+        transition: all .4s linear;
+    }
+    .menu-nav.transition {
+        margin: -100px 0 0 0%;
+    }
+    .two {
+        display: none;
+    }
+    .btn-section {
+        width: 20vw;
+        height: 18vh;
+    }
+    .increase-200-m {
+        min-height: 150vh !important;
+    }
+}
