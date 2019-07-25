@@ -46,10 +46,30 @@ footer {
     background-color: transparent;
     border-radius: 10px;
     padding-top: 13px;
+    border-color: $primaryColor;
+    color: $primaryColor;
+    transition: all 1s;
 }
 
-.btn-white {
-    border-color: $primaryColor;
+.btn-section:hover {
+    background-color: $primaryColor;
+    color: black;
+}
+
+.btn-black {
+    width: 20vw;
+    height: 8vh;
+    border: 2px solid;
+    background-color: transparent;
+    border-radius: 10px;
+    padding-top: 13px;
+    border-color: black;
+    transition: all 1s;
+}
+
+.btn-black:hover {
+    background-color: black;
+    color: $primaryColor;
 }
 
 .one {
@@ -115,6 +135,10 @@ footer {
         display: none;
     }
     .btn-section {
+        width: 20vw;
+        height: 18vh;
+    }
+    .btn-black {
         width: 20vw;
         height: 18vh;
     }
