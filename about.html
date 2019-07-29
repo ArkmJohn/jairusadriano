@@ -11,7 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Jairus Ziv Adriano</title>
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!--CSS-->
     <link rel="stylesheet" href="css/variables.css">
@@ -23,6 +23,9 @@
 
     <!--Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--AOS Animations-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
 </head>
 
 <body>
@@ -58,14 +61,14 @@
         </div>
     </burger>
 
-    <section class="bg-color-prim">
+    <section data-aos="fade-up" class="bg-color-prim">
         <div class="container-fluid">
-            <div class="row justify-content-start">
+            <div data-aos="fade-right" class="row justify-content-start">
                 <div class="col-1">
                     <a href="./index.html"><img class="logo" src="img/logo-black.png"></a>
                 </div>
             </div>
-            <div class="row increase-200-m align-items-center main-row-section align-items-left">
+            <div data-aos="fade-rigth" class="row increase-200-m align-items-center main-row-section align-items-left">
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 profile-photo">
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -81,7 +84,7 @@
         </div>
     </section>
 
-    <footer id="contact" class="bg-color-nav-blue">
+    <footer id="contact" class="bg-color-nav-blue" style="margin-top: 1em;">
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2">
@@ -104,6 +107,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 500,
+            delay: 150
+        });
     </script>
     <!--Burgers-->
     <script>

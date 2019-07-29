@@ -23,6 +23,8 @@
 
     <!--Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--AOS Animations-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
 </head>
 
 <body>
@@ -67,7 +69,7 @@
             </div>
         </div>
     </header>
-    <section class="bg-color-teal" style="overflow:hidden">
+    <section data-aos="fade-right" class="bg-color-teal" style="overflow:hidden">
         <div class=" three parallax"></div>
         <div class="container-fluid">
             <div class="row spec-row color-primary align-items-start">
@@ -83,7 +85,7 @@
     </section>
 
     <section>
-        <div class="container" style="height: 55vh">
+        <div data-aos="fade-right" class="container" style="height: 55vh">
             <div class="row align-items-center" style="height:50vh;">
                 <div class="col-12 padded">
                     <h1 style="font-weight: 800; font-size:3em;">Overview</h1>
@@ -94,8 +96,8 @@
             </div>
         </div>
         <div>
-            <img style="width:100%;" src="img/defined-cover.jpg">
-            <img style="width:100%;" src="img/defined-inside.jpg">
+            <img data-aos="fade-right" style="width:100%;" src="img/defined-cover.jpg">
+            <img data-aos="fade-right" style="width:100%;" src="img/defined-inside.jpg">
 
         </div>
     </section>
@@ -122,6 +124,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 500,
+            delay: 150
+        });
     </script>
     <!--Burgers-->
     <script>
